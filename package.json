@@ -7,9 +7,18 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Aiden Threadgoode",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-thread/My-Note-Taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a-thread/My-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/a-thread/My-Note-Taker#readme"
 }
