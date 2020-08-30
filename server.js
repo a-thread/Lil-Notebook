@@ -2,7 +2,7 @@
 // =============================================================
 const express = require("express");
 const path = require("path");
-const index = require("./index.js");
+const index = require("./public/assets/js/index");
 
 
 // Sets up the Express App
