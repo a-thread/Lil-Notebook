@@ -5,7 +5,7 @@
 ![Image of front page](./public/assets/images/front-page.png)
     
 ### Description
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+***My Note Taker*** is an application that can be used to write, save, and delete notes. This application uses an express backend and saves/retrieves note data from a JSON file.
 
 ---
 

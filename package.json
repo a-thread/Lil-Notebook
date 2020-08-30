@@ -10,7 +10,8 @@
   "author": "Aiden Threadgoode",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "util": "^0.12.3"
   },
   "devDependencies": {},
   "repository": {
