@@ -14,7 +14,7 @@
 #### Table of Contents
 - [Description](#description)
 - [User Story](#user)
-- [Technologies Used](#technologies)
+- [Tech Used](#technologies)
 - [Demo](#demo)
 - [License](#license)
 - [Questions](#questions)
@@ -31,13 +31,13 @@ I WANT to be able to delete notes I've written before
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
+### Demo
+![Demo of Lil Notbook making and saving files](./public/assets/images/demo.gif)
+
 ### Technologies Used
 - Express
 - Node.js
 - UUID
-
-### Demo
-![Demo of Lil Notbook making and saving files](./public/assets/images/demo.gif)
 
 #### License
 This project is licensed under MIT. 
