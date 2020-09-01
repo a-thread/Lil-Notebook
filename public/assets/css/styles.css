@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 body {
@@ -43,6 +44,7 @@ nav {
   width: 100%;
   outline: none;
   border: none;
+  font-family: 'Covered By Your Grace', cursive;
 }
 
 .note-textarea {
@@ -81,6 +83,7 @@ nav {
 .list-container i {
   font-size: 1.1rem;
   cursor: pointer;
+  font-family: 'Covered By Your Grace', cursive;
 }
 
 .list-container .list-group-item {
