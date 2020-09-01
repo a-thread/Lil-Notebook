@@ -1,5 +1,5 @@
 {
-  "name": "note-taker",
+  "name": "lil-notebook",
   "version": "1.0.0",
   "description": "A note taking app powered by express.",
   "main": "server.js",
@@ -11,16 +11,17 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4",
+    "ms": "^2.1.2",
     "util": "^0.12.3",
     "uuid": "^8.3.0"
   },
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/a-thread/My-Note-Taker.git"
+    "url": "git+https://github.com/a-thread/Lil-Notebook.git"
   },
   "bugs": {
-    "url": "https://github.com/a-thread/My-Note-Taker/issues"
+    "url": "https://github.com/a-thread/Lil-Notebook/issues"
   },
-  "homepage": "https://github.com/a-thread/My-Note-Taker#readme"
+  "homepage": "https://github.com/a-thread/Lil-Notebook#readme"
 }
