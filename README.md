@@ -4,7 +4,7 @@
 
 ### [Check it out on Heroku!](https://aiden-note-taker.herokuapp.com/)
 
-![Image of front page](./public/assets/images/lil-notebook.png)
+[![Image of front page](./public/assets/images/lil-notebook.png)](https://aiden-note-taker.herokuapp.com/)
     
 ## Description
 ***Lil Notebook*** is an application that can be used to write, save, and delete notes. This application uses an express backend and saves/retrieves note data from a JSON file.
