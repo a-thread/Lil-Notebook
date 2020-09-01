@@ -86,6 +86,11 @@ nav {
   cursor: pointer;
 }
 
+.list-text {
+  font-family: 'Covered By Your Grace', cursive;
+  font-size: 18px;
+}
+
 .list-container .list-group-item {
   border-left: none;
   border-right: none;
