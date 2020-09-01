@@ -1,17 +1,20 @@
 
-# My-Note-Taker 
+# Lil-Notebook 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+[Link to Lil Notebook]()
 
 ![Image of front page](./public/assets/images/front-page.png)
     
 ### Description
-***My Note Taker*** is an application that can be used to write, save, and delete notes. This application uses an express backend and saves/retrieves note data from a JSON file.
+***Lil Notebook*** is an application that can be used to write, save, and delete notes. This application uses an express backend and saves/retrieves note data from a JSON file.
 
 ---
 
 #### Table of Contents
 - [Description](#description)
 - [User Story](#user)
+- [Demo](#demo)
 - [Technologies Used](#technologies)
 - [License](#license)
 - [Questions](#questions)
@@ -29,7 +32,11 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
 ### Technologies Used
-Technologies to be filled in later.
+>- Express
+>- Node.js
+>- UUID
+>- Util
+>- FS
 
 #### License
 This project is licensed under MIT. 
@@ -37,6 +44,7 @@ This project is licensed under MIT.
 #### Questions
     
 If you have any questions, please [email me.](mailto:aiden.threadgoode@gmail.com)
+
 If you'd like to see more of my work, feel free to check out [my github!](https://github.com/a-thread)
 
 *© 2020 Aiden Threadgoode*
