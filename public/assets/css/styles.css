@@ -6,11 +6,11 @@ html, body {
 }
 
 body {
-  background-color: #CBF3F0;
+  background-color: #8ecae6;
 }
 
 nav {
-  background-color: #2BB6A8;
+  background-color: #023047;
 }
 
 .navbar-brand, .display-4 {
@@ -63,7 +63,7 @@ nav {
   color: #757575;
 }
 
-.list-container .card {
+.list-container .list {
   height: calc(100vh - 70px);
   border-bottom: none;
   border-bottom-right-radius: 0;
@@ -74,7 +74,7 @@ nav {
   padding-left: 0;
 }
 
-.list-container .list-group, .list-container .list-group-item:first-child, .list-container .card {
+.list-container .list-group, .list-container .list-group-item:first-child, .list-container .list {
   border-top: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
