@@ -4,6 +4,29 @@ html, body {
   padding: 0;
 }
 
+body {
+  background-color: #CBF3F0;
+}
+
+nav {
+  background-color: #2BB6A8;
+}
+
+.navbar-brand, .display-4 {
+  font-family: 'Rock Salt', cursive;
+}
+
+.jumbotron {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.get-started {
+  background-color: #FF9F1C;
+  color: white;
+  font-weight: 700;
+}
+
 .save-note {
   display: none;
 }
@@ -49,9 +72,7 @@ html, body {
   padding-left: 0;
 }
 
-.list-container .list-group,
-.list-container .list-group-item:first-child,
-.list-container .card {
+.list-container .list-group, .list-container .list-group-item:first-child, .list-container .card {
   border-top: none;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
