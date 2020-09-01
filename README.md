@@ -2,9 +2,9 @@
 # Lil-Notebook 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-[Link to Lil Notebook]()
+#### [Check it out on Heroku!](https://aiden-note-taker.herokuapp.com/notes)
 
-![Image of front page](./public/assets/images/front-page.png)
+![Image of front page](./public/assets/images/lil-notebook.png)
     
 ### Description
 ***Lil Notebook*** is an application that can be used to write, save, and delete notes. This application uses an express backend and saves/retrieves note data from a JSON file.
@@ -14,8 +14,8 @@
 #### Table of Contents
 - [Description](#description)
 - [User Story](#user)
-- [Demo](#demo)
 - [Technologies Used](#technologies)
+- [Demo](#demo)
 - [License](#license)
 - [Questions](#questions)
 
@@ -32,11 +32,12 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
 ### Technologies Used
->- Express
->- Node.js
->- UUID
->- Util
->- FS
+- Express
+- Node.js
+- UUID
+
+### Demo
+![Demo of Lil Notbook making and saving files](./public/assets/images/demo.gif)
 
 #### License
 This project is licensed under MIT. 
