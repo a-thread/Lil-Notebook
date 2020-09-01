@@ -2,7 +2,7 @@
 # Lil-Notebook 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-#### [Check it out on Heroku!](https://aiden-note-taker.herokuapp.com/notes)
+#### [Check it out on Heroku!](https://aiden-note-taker.herokuapp.com/)
 
 ![Image of front page](./public/assets/images/lil-notebook.png)
     
