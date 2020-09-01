@@ -2,11 +2,11 @@
 # Lil-Notebook 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
-#### [Check it out on Heroku!](https://aiden-note-taker.herokuapp.com/)
+### [Check it out on Heroku!](https://aiden-note-taker.herokuapp.com/)
 
 ![Image of front page](./public/assets/images/lil-notebook.png)
     
-### Description
+## Description
 ***Lil Notebook*** is an application that can be used to write, save, and delete notes. This application uses an express backend and saves/retrieves note data from a JSON file.
 
 ---
