@@ -47,16 +47,19 @@ nav {
   font-family: 'Covered By Your Grace', cursive;
 }
 
-.note-textarea {
+.note-textarea,
+.notebook {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
+  border-radius: 0 0 5px 5px;
 }
 
 .note-title {
   height: 50px;
   margin-top: 13px;
   font-size: 3rem;
+  border-radius: 5px 5px 0 0;
 }
 
 .note-title:read-only, .note-textarea:read-only {
@@ -66,8 +69,7 @@ nav {
 .list-container .list {
   height: calc(100vh - 70px);
   border-bottom: none;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+  border-radius: 0 0 5px 0;
 }
 
 .list-container {
