@@ -16,6 +16,10 @@ nav {
   font-family: 'Rock Salt', cursive;
 }
 
+.footer {
+  height: 2.75rem;
+}
+
 .jumbotron {
   margin-top: 80px;
   text-align: center;
