@@ -12,7 +12,7 @@ nav {
   background-color: #023047;
 }
 
-.navbar-brand, .display-4 {
+.navbar-brand, h1 {
   font-family: 'Rock Salt', cursive;
 }
 
