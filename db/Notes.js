@@ -25,9 +25,9 @@ class Notes {
             // naming array
             let notesArr;
             // concating parsed notes into array
-            try { 
+            try {
                 notesArr = [].concat(JSON.parse(notes))
-                
+
             } catch (err) {
                 notesArr = []; // otherwise return an empty array
             }
@@ -36,7 +36,7 @@ class Notes {
         })
     };
 
-    // adding new note
+    // Add New Note Function
     addNote(note) {
         // with the title and text
         const { title, text } = note;
@@ -46,17 +46,26 @@ class Notes {
             throw new Error("Note cannot be blank!")
         };
 
-        // new note object with title, text, & id
-        const newNote = {title, text, id: uuidv4()};
-        
-        // this expands our notes array, adds the new note to the end, creates a NEW ARRAY called "updated Notes" with the new note and writes the NEW ARRAY
-        return this.getNotes().then((notes) => [...notes, newNote]).then((updatedNotes) => this.write(updatedNotes)).then(() => newNote);
+        // new note object with title, text, & id (using uuid version 4)
+        const newNote = { title, text, id: uuidv4() };
+
+        // returning notesArr from getNotes() along with note we want to add
+        return this.getNotes()
+            // expanding notesArr called "notes" and adds our new note to the end
+            .then((notes) => [...notes, newNote])
+            // creating a NEW ARRAY called "updatedNotes" with the new note included and writing said array
+            .then((updatedNotes) => this.write(updatedNotes))
+            // emptying newNote for the next time we need to add a note
+            .then(() => newNote);
     };
 
     // "Delete" note function (done by id number)
     deleteNote(id) {
         // This uses the same kind of logic. It doesn't actually delete the note, it creates a NEW ARRAY after filtering that note out of the array by id number.
-        return this.getNotes().then(notes => notes.filter((note) => note.id !== id)).then(filteredNotes => this.write(filteredNotes))
+        return this
+            .getNotes()
+            .then(notes => notes.filter((note) => note.id !== id))
+            .then(filteredNotes => this.write(filteredNotes))
     }
 };
 
