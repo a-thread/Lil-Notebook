@@ -97,3 +97,12 @@ nav {
   padding: 20px;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  input {
+    font-size: 10vh;
+  }
+  text-area {
+    font-size: 8vh;
+  }
+}
