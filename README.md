@@ -37,7 +37,9 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ### Technologies Used
 - Express
 - Node.js
+- npm
 - UUID
+- Heroku
 
 #### License
 This project is licensed under MIT. 
